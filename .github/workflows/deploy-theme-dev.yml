@@ -5,15 +5,15 @@ on:
       - simply-keep-dev
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Update INQUIRYHOOKURL
         run: perl -pi -e 's/INQUIRYHOOKURL/"$ENV{INQUIRYHOOK}"/' assets/scripts/itk.js
         env:
           INQUIRYHOOK: ${{ secrets.INQUIRYHOOK }}
       - name: Deploy Ghost Theme Dev
-        uses: TryGhost/action-deploy-theme@v1.4.0
+        uses: TryGhost/action-deploy-theme@v1
         with:
           api-url: ${{ secrets.GHOST_ADMIN_API_URL_DEV }}
           api-key: ${{ secrets.GHOST_ADMIN_API_KEY_DEV }}
