@@ -7,7 +7,7 @@
         ✎ @GodoFredoNinja
         ✈ Lima - Perú
 -->
-<html lang="{{@site.lang}}" data-theme="dark">
+<html lang="{{@site.locale}}" data-theme="dark">
 <head>
     {{!-- Document Settings --}}
     <meta charset="utf-8" />
@@ -33,7 +33,7 @@
     {{!-- <style>{{> "styles"}}</style> --}}
 
     {{!-- Ghost outputs important style and meta data with this tag --}}
-    <script type="text/javascript" src="/assets/scripts/itk.js"></script>
+    <script type="text/javascript" src="{{asset 'assets/scripts/itk.js'}}"></script>
     {{ghost_head}}
 
     <script>
@@ -53,7 +53,7 @@
         {{> "header"}}
 
         {{!-- Subscribe and tag -> this will be below the header --}}
-        {{#if @labs.members}}
+        {{#if @site.members_enabled}}
             {{#is "index, home, tag"}}
                 {{> "widget/subscribe-and-secondary-menu"}}
             {{/is}}
@@ -85,7 +85,7 @@
     </div>
 
     {{!-- notification Subscribe --}}
-    {{#if @labs.members}}
+    {{#if @site.members_enabled}}
     <div class="subscribe-success-message u-flexCenter u-justify-content-center">
         <span class="u-fontSize22" style="margin-right:10px">🎉</span> {{t "You've successfully subscribed to"}} {{@site.title}}!
         <div class="notification-close button button--success">OK</div>
@@ -109,7 +109,7 @@
     {{!-- Main scripts --}}
     <script src="{{asset "scripts/main.js"}}"></script>
 
-    {{#if @labs.members}}
+    {{#if @site.members_enabled}}
     <script>
         // Parse the URL parameter
         function getParameterByName(name, url) {
