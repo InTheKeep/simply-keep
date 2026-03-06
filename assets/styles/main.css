@@ -180,7 +180,7 @@ figcaption {
   color: #6c757d;
 }
 .text-success {
-  color: #ed1c24;
+  color: #FF6E0D;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
   font-family: Libre Franklin;
 }
@@ -369,10 +369,10 @@ a:hover {
   outline: 0;
 }
 .link-more {
-  color: #ed1c24;
+  color: #FF6E0D;
 }
 .link-more:hover {
-  color: #ed1c24;
+  color: #FF6E0D;
 }
 blockquote {
   border-left: 5px solid;
@@ -665,7 +665,7 @@ svg {
 }
 .u-menu-color a.nav-current,
 .u-menu-color a:hover {
-  color: #ed1c24 !important;
+  color: #FF6E0D !important;
 }
 .u-textColorWhite {
   color: #fff !important;
@@ -782,7 +782,7 @@ svg {
   width: 60px;
   height: 3px;
   margin: 5px 0 24px;
-  background-color: #ed1c24;
+  background-color: #FF6E0D;
   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
 }
 .u-fontWeightThin {
@@ -1209,7 +1209,7 @@ p {
   right: 0;
   width: 2px;
   height: 24px;
-  background-color: #ed1c24;
+  background-color: #FF6E0D;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -1232,7 +1232,7 @@ p {
 }
 .secondaryMenu .nav li a.nav-current,
 .secondaryMenu .nav li a:hover {
-  color: #ed1c24;
+  color: #FF6E0D;
 }
 .secondaryMenu .nav li a.nav-current {
   font-weight: 400;
@@ -1706,35 +1706,35 @@ p {
   top: -1px;
 }
 .button--primary {
-  background: #ed1c24;
-  border: 1px solid #ed1c24;
+  background: #FF6E0D;
+  border: 1px solid #FF6E0D;
   color: #fff;
 }
 .button--primary:hover {
-  background: #ed1c24;
+  background: #FF6E0D;
   color: #fff;
 }
 .button--outline-success {
-  color: #ed1c24;
+  color: #FF6E0D;
   background-color: transparent;
   background-image: none;
-  border-color: #ed1c24;
+  border-color: #FF6E0D;
 }
 .button--outline-success:active,
 .button--outline-success:hover {
-  background-color: #ed1c24;
-  border-color: #ed1c24;
+  background-color: #FF6E0D;
+  border-color: #FF6E0D;
   color: #fff;
 }
 .button--success {
-  color: #ed1c24;
+  color: #FF6E0D;
   background: transparent;
-  border-color: #ed1c24;
+  border-color: #FF6E0D;
 }
 .button--success:hover {
   color: #fff;
-  background: #ed1c24;
-  border-color: #ed1c24;
+  background: #FF6E0D;
+  border-color: #FF6E0D;
 }
 .button--large {
   font-size: 1.25rem;
@@ -2243,7 +2243,7 @@ body.is-transparent:not(.has-menu) .u-menu-color a {
   position: relative;
 }
 .kg-bookmark-publisher {
-  color: #ed1c24;
+  color: #FF6E0D;
 }
 .kg-bookmark-content {
   -webkit-box-flex: 1;
@@ -2456,7 +2456,7 @@ body.is-transparent:not(.has-menu) .u-menu-color a {
   margin-top: 2rem;
 }
 .post-body a:not(.kg-bookmark-container):not(.button) {
-  color: #ed1c24;
+  color: #FF6E0D;
   text-decoration: none;
   word-break: break-word;
   -webkit-transition: color, border-color 0.2s linear;
@@ -2464,7 +2464,7 @@ body.is-transparent:not(.has-menu) .u-menu-color a {
   border-bottom: 1px solid #f1f1f1;
 }
 .post-body a:not(.kg-bookmark-container):not(.button):hover {
-  border-bottom-color: #ed1c24;
+  border-bottom-color: #FF6E0D;
 }
 .post-body img:not(.kg-bookmark-icon) {
   display: block;
@@ -2677,7 +2677,7 @@ body.is-transparent:not(.has-menu) .u-menu-color a {
   color: inherit;
 }
 .spc-h-e {
-  color: #ed1c24;
+  color: #FF6E0D;
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.3125rem;
@@ -2690,7 +2690,7 @@ body.is-transparent:not(.has-menu) .u-menu-color a {
 }
 .spc-des em {
   font-style: italic;
-  color: #ed1c24;
+  color: #FF6E0D;
 }
 .spc-buttons .button {
   background: hsla(0, 0%, 100%, 0.9);
@@ -2772,7 +2772,7 @@ body.is-transparent:not(.has-menu) .u-menu-color a {
   text-transform: uppercase;
   letter-spacing: 0.0625rem;
   font-weight: 400;
-  color: #ed1c24;
+  color: #FF6E0D;
 }
 .godo-ne-form small {
   display: block;
@@ -2820,7 +2820,7 @@ body.is-transparent:not(.has-menu) .u-menu-color a {
   text-align: center;
 }
 .godo-n-q-d {
-  color: #ed1c24;
+  color: #FF6E0D;
   font-size: 0.875rem;
   font-weight: 400;
   letter-spacing: 0.0625rem;
@@ -3363,9 +3363,9 @@ html[data-theme="dark"] table tr:nth-child(2n) {
 .post-footer {
   background-color: rgba(1, 1, 1, 0.9);
   margin-bottom: 13px;
-  margin-top: 23px;
+  margin-top: 10%;
   border: 1px solid #320004;
-  border: 1px solid #320002;
+  border: 1px solid #FF6E0D;
   box-shadow: 0 0 10px black;
 }
 .post-header {
@@ -3401,9 +3401,9 @@ hr {
 .story,
 .story-cover {
   margin-bottom: 50px;
-  background: rgba(1, 1, 1, 0.85);
+  background: rgba(1, 1, 1, 0.625);
   padding: 10px;
-  border: 1px solid #320002;
+  border: 1px solid #FF6E0D;
   box-shadow: 0 0 10px black;
 }
 
@@ -3438,7 +3438,7 @@ hr {
 
 html[data-theme="dark"] .subscribeBanner {
   background-color: #272626;
-  border: 1px solid red;
+  border: 1px solid #FF6E0D;
   border-left: none;
   border-right: none;
 }
@@ -3469,7 +3469,7 @@ html[data-theme="dark"] hr {
   text-shadow: none !important;
   border: 1px solid transparent !important;
   text-shadow: 0 0 10px white;
-  color: red !important;
+  color: #FF6E0D !important;
 }
 .u-menu-color a:hover {
   color: white !important;
@@ -3603,7 +3603,7 @@ html[data-theme="dark"] hr {
 .is-podcast .tab {
   overflow: hidden;
   border: 1px solid #340002;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.625);
   margin: auto;
   width: 100%;
   border-radius: 5px;
@@ -3639,7 +3639,7 @@ is-podcast .tablinks:hover {
   border: 1px solid #340002;
   border-radius: 5px;
   box-shadow: 0px 0px 20px black;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.625);
 }
 
 .is-podcast .tabcontent iframe {
